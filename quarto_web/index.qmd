@@ -1,0 +1,48 @@
+---
+title: ""
+format: html
+
+---
+
+
+```{=html}
+<div style="display: flex; ">
+
+  <!-- Image container with 50% width -->
+  <div style="flex: 1; width: 50%; margin-right: 10px;align-items: center;">
+    <img src="/image.png" alt="Alt text" style="width: 100%; max-width: 100%;" />
+  </div>
+
+  
+  
+
+  <!-- Text container with title aligned to the top and text centered -->
+  <div style="flex: 1; width: 50%; display: flex; flex-direction: column;">
+
+    <!-- Title aligned to the top -->
+    <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px; align-self: flex-start;">
+      Xiao Wu
+    </div>
+
+     <!-- Text with grey line to the left -->
+    <div style="display: flex; align-items: center;margin-top: auto; margin-bottom: auto;font-size: 1.25em;">
+      <!-- Grey line beside the text -->
+      <div style=" border-left: 1px solid grey; height: 100%; margin-right: 10px;"></div>
+
+      <!-- Centered text content -->
+      <p>I am a first-year ScM student in biostatistics at Johns Hopkins Bloomberg School of Public Health. After I completed a Bacholar's degree in human biology and statistics, I find myself interested in causal inference research and clinical trial design.</p>
+    </div>
+    
+    
+    
+  </div>
+
+
+```
+
+
+```{=html}
+
+
+
+```
