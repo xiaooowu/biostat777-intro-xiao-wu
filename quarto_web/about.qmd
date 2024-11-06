@@ -2,8 +2,20 @@
 title: "About"
 ---
 
-About this site
+# Education
 
-```{r}
-1 + 1
-```
+**Johns Hopkins University** (2024-present)
+ScM in Biostatistics
+
+**University of Toronto** (2019-2024)
+BS in Statistics and Human Biology: Health and Disease
+
+# Research experience
+
+- Precision medicine clinical trial design in psychiatry (2023.9-2024.8)
+- Meta-analysis of Alzheimer’s disease human and mouse single-cell transcriptome (2023.9-2024.4)
+- Role of miR-193b-5p in attenuating influenza-induced ARDS (2022.4-2024.9)
+- Influence of diet and macronutrient intake on the structure and function of gut microbiota in wild primate group (2021.6-2021.7)
+
+# Personal interest
+Outside of my studies, I enjoy a variety of hobbies, including exploring food in the city, watching anime, practicing archery, playing video games, and dancing.
