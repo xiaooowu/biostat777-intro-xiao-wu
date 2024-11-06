@@ -5,9 +5,11 @@ title: "About"
 # Education
 
 **Johns Hopkins University** (2024-present)
+
 ScM in Biostatistics
 
 **University of Toronto** (2019-2024)
+
 BS in Statistics and Human Biology: Health and Disease
 
 # Research experience
