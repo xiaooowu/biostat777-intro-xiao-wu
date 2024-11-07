@@ -3,7 +3,7 @@ title: "Xiao Wu"
 format: html
 about:
   template: jolla
-  image: /image.png
+  image: image.png
   image-shape: round
   links:
     - icon: twitter
