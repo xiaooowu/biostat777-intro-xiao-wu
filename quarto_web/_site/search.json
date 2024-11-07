@@ -7,39 +7,11 @@
     "text": "Education\nJohns Hopkins University (2024-present)\nScM in Biostatistics\nUniversity of Toronto (2019-2024)\nBS in Statistics and Human Biology: Health and Disease\n\n\nResearch experience\n\nPrecision medicine clinical trial design in psychiatry (2023.9-2024.8)\nMeta-analysis of Alzheimer’s disease human and mouse single-cell transcriptome (2023.9-2024.4)\nRole of miR-193b-5p in attenuating influenza-induced ARDS (2022.4-2024.9)\nInfluence of diet and macronutrient intake on the structure and function of gut microbiota in wild primate group (2021.6-2021.7)\n\n\n\nPersonal interest\nOutside of my studies, I enjoy a variety of hobbies, including exploring food in the city, watching anime, practicing archery, playing video games, and dancing."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Xiao Wu",
-    "section": "",
-    "text": "I am a first-year ScM student in biostatistics at Johns Hopkins Bloomberg School of Public Health. After I completed a Bacholar’s degree in human biology and statistics, I find myself interested in causal inference research and clinical trial design."
-  },
-  {
     "objectID": "example_analysis.html",
     "href": "example_analysis.html",
     "title": "Example Analysis",
     "section": "",
     "text": "In October 2023, James Hoffmann, a “world champion barista,” and the coffee company Cometeer hosted the “Great American Coffee Taste Test” on YouTube (Hoffmann 2024). Participants tasted four different types of coffee ordered from Cometeer and completed a survey that gathered demographic information, their coffee preferences and the ratings for the four coffee. Using the survey data collected during the taste test, This analysis aims to investigate the association between demographic factors and participants’ coffee preferences.\n\n\n\nCoffee taste test\n\n\n[Source: Cometeer James Hoffmann Taste Test Scoresheet]\n\n\n\nIs there an association between age and gender and individuals’ coffee preferences?\n\n\n\nThis analysis is aimed at coffee enthusiasts, industry stakeholders, and data science students.\n\n\n\nThe dataset used in this analysis is part of the TidyTuesday initiative (Harmon 2019) and can be accessed on the TidyTuesday GitHub. The original data could be accessed on James Hoffmann’s YouTube channel. The data dictionary could be found here."
-  },
-  {
-    "objectID": "example_analysis.html#data-source-and-data-dictonary",
-    "href": "example_analysis.html#data-source-and-data-dictonary",
-    "title": "Example Analysis",
-    "section": "",
-    "text": "https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-05-14/readme.md"
-  },
-  {
-    "objectID": "analysis draft.html",
-    "href": "analysis draft.html",
-    "title": "analysis draft",
-    "section": "",
-    "text": "https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-05-14/readme.md"
-  },
-  {
-    "objectID": "analysis draft.html#data-source-and-data-dictonary",
-    "href": "analysis draft.html#data-source-and-data-dictonary",
-    "title": "analysis draft",
-    "section": "",
-    "text": "https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-05-14/readme.md"
   },
   {
     "objectID": "example_analysis.html#background",
@@ -89,5 +61,12 @@
     "title": "Example Analysis",
     "section": "Is there an association between gender and coffee preference?",
     "text": "Is there an association between gender and coffee preference?\n\n# Prepare the data by calculating the average ratings and using the correct coffee type order\ndf_preference_avg &lt;- df_long %&gt;%\n  filter(attribute == \"personal_preference\") %&gt;%\n  group_by(gender, coffee_type) %&gt;%\n  summarize(avg_preference = mean(value, na.rm = TRUE))\n\n# Reorder the coffee types\ndf_preference_avg$coffee_type &lt;- factor(df_preference_avg$coffee_type, \n                                        levels = c(\"Coffee D\", \"Coffee C\", \n                                                   \"Coffee B\", \"Coffee A\"))\n\n# Create the heatmap plot\nggplot(df_preference_avg, aes(x = gender, y = coffee_type, fill = avg_preference)) +\n  geom_tile() +\n  scale_fill_distiller(palette = \"RdYlBu\", direction = -1, limits = c(2, 4), name = \"Avg. Preference Rating\") +  # Color gradient\n  labs(title = \"Average Coffee Preference by Gender and Coffee Type\",\n       subtitle = \"Exploring the relationship between gender and coffee preference across different coffee types\",\n       x = \"Gender\", \n       y = \"Coffee Type\") +\n  theme_minimal() +\n  theme(axis.text.x = element_text(angle = 45, hjust = 1))\n\n\n\n\nFigure 4: Heatmap of average preference rating of the four coffee type by gender.\n\n\n\n\nThe average preference ratings differ slightly across gender categories for each type of coffee. Most gender groups exhibit a neutral preference for each coffee type, reflected in an average preference rating of 3, indicated in yellow. However, males tend to assign higher ratings to coffee A, while those who identified as “other” or “prefer not to say” generally rate coffee B and C lower. For coffee D, females tend to provide lower preference ratings, whereas the remaining participants tend to assign higher ratings."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Xiao Wu",
+    "section": "",
+    "text": "I am a first-year ScM student in biostatistics at Johns Hopkins Bloomberg School of Public Health. After I completed a Bacholar’s degree in human biology and statistics, I find myself interested in causal inference research and clinical trial design."
   }
 ]
