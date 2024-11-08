@@ -175,15 +175,13 @@ div.csl-indent {
   <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
   <li><a href="#research-question" id="toc-research-question" class="nav-link" data-scroll-target="#research-question">Research Question</a></li>
   <li><a href="#intended-audience" id="toc-intended-audience" class="nav-link" data-scroll-target="#intended-audience">Intended Audience</a></li>
-  <li><a href="#data-source-and-data-dictionary" id="toc-data-source-and-data-dictionary" class="nav-link" data-scroll-target="#data-source-and-data-dictionary">Data Source and data dictionary</a></li>
+  <li><a href="#data-source-and-data-dictionary" id="toc-data-source-and-data-dictionary" class="nav-link" data-scroll-target="#data-source-and-data-dictionary">Data Source and Data Dictionary</a></li>
   </ul></li>
   <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">Exploratory Data Analysis</a>
   <ul class="collapse">
   <li><a href="#demographic-characteristics-of-the-study-population" id="toc-demographic-characteristics-of-the-study-population" class="nav-link" data-scroll-target="#demographic-characteristics-of-the-study-population">Demographic characteristics of the study population</a></li>
-  <li><a href="#overview-of-coffee-ratings" id="toc-overview-of-coffee-ratings" class="nav-link" data-scroll-target="#overview-of-coffee-ratings">Overview of coffee ratings</a>
-  <ul class="collapse">
+  <li><a href="#overview-of-coffee-ratings" id="toc-overview-of-coffee-ratings" class="nav-link" data-scroll-target="#overview-of-coffee-ratings">Overview of coffee ratings</a></li>
   <li><a href="#is-there-an-association-between-age-and-coffee-preference" id="toc-is-there-an-association-between-age-and-coffee-preference" class="nav-link" data-scroll-target="#is-there-an-association-between-age-and-coffee-preference">Is there an association between age and coffee preference?</a></li>
-  </ul></li>
   <li><a href="#is-there-an-association-between-gender-and-coffee-preference" id="toc-is-there-an-association-between-gender-and-coffee-preference" class="nav-link" data-scroll-target="#is-there-an-association-between-gender-and-coffee-preference">Is there an association between gender and coffee preference?</a></li>
   </ul></li>
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
@@ -217,26 +215,26 @@ div.csl-indent {
 <h1>Introduction</h1>
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>In October 2023, James Hoffmann, a “world champion barista,” and the coffee company Cometeer hosted the “Great American Coffee Taste Test” on YouTube <span class="citation" data-cites="youtube">(<a href="#ref-youtube" role="doc-biblioref">Hoffmann 2024</a>)</span>. Participants tasted four different types of coffee ordered from Cometeer and completed a survey that gathered demographic information, their coffee preferences and the ratings for the four coffee. Using the survey data collected during the taste test, This analysis aims to investigate the association between demographic factors and participants’ coffee preferences.</p>
+<p>In October 2023, James Hoffmann, a “world champion barista”, and the coffee company Cometeer hosted the “Great American Coffee Taste Test” on YouTube <span class="citation" data-cites="youtube">(<a href="#ref-youtube" role="doc-biblioref">Hoffmann 2024</a>)</span>. Participants tasted four different types of coffee ordered from Cometeer and completed a survey that gathered demographic information, coffee preferences and the ratings for the four coffee. Using the survey data collected during the taste test, this analysis aims to investigate the association between demographic factors and people’s coffee preferences.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="image2.png" class="img-fluid figure-img"></p>
 <figcaption>Coffee taste test</figcaption>
 </figure>
 </div>
-<p>[<strong>Source</strong>: <a href="https://cometeer.com/pages/the-great-american-coffee-taste-test?srsltid=AfmBOoqU_dtUSsWODwHozAagupTV0IlXbaCbNKf9GpdEiPce9l_meOgK">Cometeer James Hoffmann Taste Test Scoresheet</a>]</p>
+<p>[<strong>Image Source</strong>: <a href="https://cometeer.com/pages/the-great-american-coffee-taste-test?srsltid=AfmBOoqU_dtUSsWODwHozAagupTV0IlXbaCbNKf9GpdEiPce9l_meOgK">Cometeer James Hoffmann Taste Test Scoresheet</a>]</p>
 </section>
 <section id="research-question" class="level2">
 <h2 class="anchored" data-anchor-id="research-question">Research Question</h2>
-<p>Is there an association between age and gender and individuals’ coffee preferences?</p>
+<p>Is there an association between demographic factors, such as age and gender, and individuals’ coffee preferences?</p>
 </section>
 <section id="intended-audience" class="level2">
 <h2 class="anchored" data-anchor-id="intended-audience">Intended Audience</h2>
 <p>This analysis is aimed at coffee enthusiasts, industry stakeholders, and data science students.</p>
 </section>
 <section id="data-source-and-data-dictionary" class="level2">
-<h2 class="anchored" data-anchor-id="data-source-and-data-dictionary">Data Source and data dictionary</h2>
-<p>The dataset used in this analysis is part of the TidyTuesday initiative <span class="citation" data-cites="tidytuesday">(<a href="#ref-tidytuesday" role="doc-biblioref">Harmon 2019</a>)</span> and can be accessed on the <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-05-14">TidyTuesday GitHub</a>. The original data could be accessed on <a href="https://www.youtube.com/watch?v=bMOOQfeloH0">James Hoffmann’s YouTube channel</a>. The data dictionary could be found <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-05-14#coffee_surveycsv">here</a>.</p>
+<h2 class="anchored" data-anchor-id="data-source-and-data-dictionary">Data Source and Data Dictionary</h2>
+<p>The dataset used in this analysis is a part of the TidyTuesday initiative <span class="citation" data-cites="tidytuesday">(<a href="#ref-tidytuesday" role="doc-biblioref">Harmon 2019</a>)</span> and can be accessed on the <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-05-14">TidyTuesday GitHub</a>. The original data could be accessed on <a href="https://www.youtube.com/watch?v=bMOOQfeloH0">James Hoffmann’s YouTube channel</a>. The data dictionary could be found <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-05-14#coffee_surveycsv">here</a>.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/bMOOQfeloH0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 </section>
@@ -244,77 +242,78 @@ div.csl-indent {
 <h1>Exploratory Data Analysis</h1>
 <p>Due to the presence of missing data in the survey, we selected only the variables relevant to the subsequent analysis, which include age, gender, and the ratings for each type of coffee. Rows with NA values in these selected columns were removed, resulting in a total of 3,520 observations remaining for analysis.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># library</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># library(ggplot2)</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># library(dplyr)</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># library(tidyr)</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(grid)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RColorBrewer)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data </span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2024-05-14'</span>)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> tuesdata[[<span class="st">"coffee_survey"</span>]]</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># only focus on the following variables</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span> </span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(age, <span class="fu">starts_with</span>(<span class="st">"coffee_a_"</span>), <span class="fu">starts_with</span>(<span class="st">"coffee_b_"</span>),</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>         <span class="fu">starts_with</span>(<span class="st">"coffee_c_"</span>),<span class="fu">starts_with</span>(<span class="st">"coffee_d_"</span>),  gender)</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span><span class="fu">ends_with</span>(<span class="st">"notes"</span>))</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># remove all rows with NA values</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(df)</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>gender[df<span class="sc">$</span>gender <span class="sc">==</span> <span class="st">"Other (please specify)"</span>] <span class="ot">&lt;-</span> <span class="st">"Other"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Data cleaning</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># library</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(grid)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RColorBrewer)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data </span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>tuesdata <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="st">'2024-05-14'</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> tuesdata[[<span class="st">"coffee_survey"</span>]]</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># only focus on the following variables</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span> </span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(age, <span class="fu">starts_with</span>(<span class="st">"coffee_a_"</span>), <span class="fu">starts_with</span>(<span class="st">"coffee_b_"</span>),</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>         <span class="fu">starts_with</span>(<span class="st">"coffee_c_"</span>),<span class="fu">starts_with</span>(<span class="st">"coffee_d_"</span>),  gender)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span><span class="fu">ends_with</span>(<span class="st">"notes"</span>))</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># remove all rows with NA values</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(df)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>gender[df<span class="sc">$</span>gender <span class="sc">==</span> <span class="st">"Other (please specify)"</span>] <span class="ot">&lt;-</span> <span class="st">"Other"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p>The R packages used in the following analysis include Tidyverse <span class="citation" data-cites="tidyverse">(<a href="#ref-tidyverse" role="doc-biblioref">Wickham et al. 2019</a>)</span>, gridExtra <span class="citation" data-cites="gridExtra">(<a href="#ref-gridExtra" role="doc-biblioref">Auguie 2017</a>)</span>, grid <span class="citation" data-cites="grid">(<a href="#ref-grid" role="doc-biblioref">R Core Team 2023</a>)</span> and RColorBrewer <span class="citation" data-cites="RColorBrewer">(<a href="#ref-RColorBrewer" role="doc-biblioref">Neuwirth 2022</a>)</span>.</p>
+<p>The R packages used in this analysis include <code>Tidyverse</code> <span class="citation" data-cites="tidyverse">(<a href="#ref-tidyverse" role="doc-biblioref">Wickham et al. 2019</a>)</span>, <code>gridExtra</code> <span class="citation" data-cites="gridExtra">(<a href="#ref-gridExtra" role="doc-biblioref">Auguie 2017</a>)</span>, <code>grid</code> <span class="citation" data-cites="grid">(<a href="#ref-grid" role="doc-biblioref">R Core Team 2023</a>)</span> and <code>RColorBrewer</code> <span class="citation" data-cites="RColorBrewer">(<a href="#ref-RColorBrewer" role="doc-biblioref">Neuwirth 2022</a>)</span>.</p>
 </div><div class="">
-<p>Although only age and gender are included in the following analysis, the survey also collected additional demographic information, including education level, ethnicity, employment status, number of children, and political affiliation.</p>
+<p>Although only age and gender are included in this analysis, the survey also collected additional demographic information, including education level, ethnicity, employment status, number of children, and political affiliation.</p>
 </div></div>
 <section id="demographic-characteristics-of-the-study-population" class="level2">
 <h2 class="anchored" data-anchor-id="demographic-characteristics-of-the-study-population">Demographic characteristics of the study population</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># List of columns for pie charts</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>cols <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"gender"</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>title_labels <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="st">"age"</span> <span class="ot">=</span> <span class="st">"Age"</span>,</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>                     <span class="st">"gender"</span> <span class="ot">=</span> <span class="st">"Gender"</span>)</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># List of colors of the pie chart</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>palettes <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">age =</span> <span class="st">"Set1"</span>,</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">gender =</span> <span class="st">"Set2"</span>)</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create an empty list to store the plots</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>plot_list <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop through each column and create a pie chart</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (col <span class="cf">in</span> cols) {</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Calculate frequencies</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  data_summary <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">count</span>(<span class="sc">!!</span><span class="fu">sym</span>(col)) <span class="sc">%&gt;%</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">perc =</span> n <span class="sc">/</span> <span class="fu">sum</span>(n) <span class="sc">*</span> <span class="dv">100</span>) <span class="co"># Calculate percentages</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Create pie chart</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data_summary, <span class="fu">aes</span>(<span class="at">x =</span> <span class="st">""</span>, <span class="at">y =</span> perc, <span class="at">fill =</span> <span class="sc">!!</span><span class="fu">sym</span>(col))) <span class="sc">+</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">width =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    <span class="fu">coord_polar</span>(<span class="st">"y"</span>) <span class="sc">+</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">title =</span> <span class="fu">paste</span>(title_labels[[col]]), <span class="at">y =</span> <span class="cn">NULL</span>, <span class="at">x =</span> <span class="cn">NULL</span>) <span class="sc">+</span></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_void</span>() <span class="sc">+</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> palettes[[col]]) <span class="sc">+</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    <span class="fu">guides</span>(<span class="at">fill =</span> <span class="fu">guide_legend</span>(<span class="at">title =</span> col))</span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  plot_list[[col]] <span class="ot">&lt;-</span> plot</span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Arrange the plots in a 2x2 grid (2 rows, 2 columns)</span></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.arrange</span>(</span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrangeGrob</span>(plot_list<span class="sc">$</span>age,  plot_list<span class="sc">$</span>gender, <span class="at">nrow =</span> <span class="dv">1</span>),  </span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>  <span class="at">top =</span> <span class="fu">textGrob</span>(<span class="st">"Demographic characteristics of study population"</span>, <span class="at">gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">16</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>)),</span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>  <span class="at">bottom =</span> <span class="fu">textGrob</span>(<span class="st">"Most participants are 25-34 years old male."</span>, <span class="at">gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">10</span>))</span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a pie chart to visualize distribution of age and gender </span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># List of columns for pie charts</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>cols <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"age"</span>, <span class="st">"gender"</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>title_labels <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="st">"age"</span> <span class="ot">=</span> <span class="st">"Age"</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>                     <span class="st">"gender"</span> <span class="ot">=</span> <span class="st">"Gender"</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># List of colors of the pie chart</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>palettes <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">age =</span> <span class="st">"Set1"</span>,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">gender =</span> <span class="st">"Set2"</span>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create an empty list to store the plots</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>plot_list <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop through each column and create a pie chart</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (col <span class="cf">in</span> cols) {</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Calculate frequencies</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  data_summary <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">count</span>(<span class="sc">!!</span><span class="fu">sym</span>(col)) <span class="sc">%&gt;%</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">perc =</span> n <span class="sc">/</span> <span class="fu">sum</span>(n) <span class="sc">*</span> <span class="dv">100</span>) <span class="co"># Calculate percentages</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Create pie chart</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data_summary, <span class="fu">aes</span>(<span class="at">x =</span> <span class="st">""</span>, <span class="at">y =</span> perc, <span class="at">fill =</span> <span class="sc">!!</span><span class="fu">sym</span>(col))) <span class="sc">+</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">width =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="fu">coord_polar</span>(<span class="st">"y"</span>) <span class="sc">+</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">title =</span> <span class="fu">paste</span>(title_labels[[col]]), <span class="at">y =</span> <span class="cn">NULL</span>, <span class="at">x =</span> <span class="cn">NULL</span>) <span class="sc">+</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_void</span>() <span class="sc">+</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> palettes[[col]]) <span class="sc">+</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    <span class="fu">guides</span>(<span class="at">fill =</span> <span class="fu">guide_legend</span>(<span class="at">title =</span> col))</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  plot_list[[col]] <span class="ot">&lt;-</span> plot</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Arrange the plots in a 2x2 grid </span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.arrange</span>(</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrangeGrob</span>(plot_list<span class="sc">$</span>age,  plot_list<span class="sc">$</span>gender, <span class="at">nrow =</span> <span class="dv">1</span>),  </span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>  <span class="at">top =</span> <span class="fu">textGrob</span>(<span class="st">"Demographic characteristics of study population"</span>, <span class="at">gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">20</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>)),</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>  <span class="at">bottom =</span> <span class="fu">textGrob</span>(<span class="st">"Most participants are 25-34 years old male."</span>, <span class="at">gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">16</span>))</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -324,7 +323,7 @@ div.csl-indent {
 </div>
 </div>
 </div>
-<p>The study population predominantly consists of young males. Given that the survey was conducted on YouTube, it is reasonable to infer that the majority of participants are younger individuals.</p>
+<p>The study population predominantly consists of young males. Given that the survey was conducted on YouTube, it is reasonable to expect that the majority of participants are younger individuals.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -335,61 +334,63 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This demographic distribution is not representative of the overall American population, likely due to the sampling method employed in the study. Consequently, the results may not be generalizable to other populations.</p>
+<p>This demographic distribution is not representative of the overall American population, likely due to the sampling method employed in the study. Consequently, the results may not be generalizable to the whole US populations.</p>
 </div>
 </div>
 </section>
 <section id="overview-of-coffee-ratings" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="overview-of-coffee-ratings">Overview of coffee ratings</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Gather the data into long format for bitterness, acidity, and personal preference</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df_long <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="fu">starts_with</span>(<span class="st">"coffee_"</span>), </span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>               <span class="at">names_to =</span> <span class="fu">c</span>(<span class="st">"coffee_type"</span>, <span class="st">"attribute"</span>), </span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>               <span class="at">names_pattern =</span> <span class="st">"coffee_([a-d])_(.*)"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">coffee_type =</span> <span class="fu">paste</span>(<span class="st">"Coffee"</span>, <span class="fu">toupper</span>(coffee_type)))</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Define a more distinguishable color palette for each coffee type</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>coffee_colors <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Coffee A"</span> <span class="ot">=</span> <span class="st">"#FF9999"</span>, <span class="st">"Coffee B"</span> <span class="ot">=</span> <span class="st">"#66B2FF"</span>, </span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Coffee C"</span> <span class="ot">=</span> <span class="st">"#99FF99"</span>, <span class="st">"Coffee D"</span> <span class="ot">=</span> <span class="st">"#FFCC99"</span>)</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># List of attributes to plot</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>attributes <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"bitterness"</span>, <span class="st">"acidity"</span>, <span class="st">"personal_preference"</span>)</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Create an empty list to store the plots</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>plot_list <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Custom x-axis labels mapping</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>x_axis_labels <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"bitterness"</span> <span class="ot">=</span> <span class="st">"Bitterness"</span>, </span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"acidity"</span> <span class="ot">=</span> <span class="st">"Acidity"</span>, </span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"personal_preference"</span> <span class="ot">=</span> <span class="st">"Personal Preference"</span>)</span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop through each attribute to create a frequency polygon</span></span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (attr <span class="cf">in</span> attributes) {</span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Filter data for the current attribute</span></span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>  data_attr <span class="ot">&lt;-</span> df_long <span class="sc">%&gt;%</span> <span class="fu">filter</span>(attribute <span class="sc">==</span> attr)</span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Create frequency polygon with different colors for each coffee type</span></span>
-<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>  polygon_plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data_attr, <span class="fu">aes</span>(<span class="at">x =</span> value, <span class="at">color =</span> coffee_type, <span class="at">fill =</span> coffee_type)) <span class="sc">+</span></span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_freqpoly</span>(<span class="at">binwidth =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="fl">1.2</span>) <span class="sc">+</span> </span>
-<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>    <span class="fu">xlim</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">5</span>)) <span class="sc">+</span></span>
-<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_color_manual</span>(<span class="at">values =</span> coffee_colors) <span class="sc">+</span></span>
-<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">title =</span> <span class="fu">paste</span>(x_axis_labels[attr]),</span>
-<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>         <span class="at">x =</span> x_axis_labels[attr], <span class="at">y =</span> <span class="st">"Frequency"</span>) <span class="sc">+</span></span>
-<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">guides</span>(<span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">title =</span> <span class="st">"Coffee type"</span>)) <span class="sc">+</span>  <span class="co"># Custom legend title</span></span>
-<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_classic</span>()</span>
-<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Append the plot to the list</span></span>
-<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>  plot_list[[attr]] <span class="ot">&lt;-</span> polygon_plot</span>
-<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.arrange</span>(</span>
-<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrangeGrob</span>(plot_list<span class="sc">$</span>bitterness, plot_list<span class="sc">$</span>acidity, </span>
-<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>             plot_list<span class="sc">$</span>personal_preference, <span class="at">nrow =</span> <span class="dv">2</span>),  </span>
-<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>  <span class="at">top =</span> <span class="fu">textGrob</span>(<span class="st">"Ratings of bitterness, acidity and personal preferences"</span>, <span class="at">gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">20</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>)),</span>
-<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>  <span class="at">bottom =</span> <span class="fu">textGrob</span>(<span class="st">"Colors represent difference coffee type"</span>, <span class="at">gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">16</span>))</span>
-<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create frequency polygon plot to visually compare the rating of bitterness, acidity, and personal preference</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Gather the data into long format</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>df_long <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">cols =</span> <span class="fu">starts_with</span>(<span class="st">"coffee_"</span>), </span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>               <span class="at">names_to =</span> <span class="fu">c</span>(<span class="st">"coffee_type"</span>, <span class="st">"attribute"</span>), </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>               <span class="at">names_pattern =</span> <span class="st">"coffee_([a-d])_(.*)"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">coffee_type =</span> <span class="fu">paste</span>(<span class="st">"Coffee"</span>, <span class="fu">toupper</span>(coffee_type)))</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Define color palette for each coffee type</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>coffee_colors <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Coffee A"</span> <span class="ot">=</span> <span class="st">"#FF9999"</span>, <span class="st">"Coffee B"</span> <span class="ot">=</span> <span class="st">"#66B2FF"</span>, </span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Coffee C"</span> <span class="ot">=</span> <span class="st">"#99FF99"</span>, <span class="st">"Coffee D"</span> <span class="ot">=</span> <span class="st">"#FFCC99"</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># List of attributes to plot</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>attributes <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"bitterness"</span>, <span class="st">"acidity"</span>, <span class="st">"personal_preference"</span>)</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Empty list to store the plots</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>plot_list <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Custom x-axis labels mapping</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>x_axis_labels <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"bitterness"</span> <span class="ot">=</span> <span class="st">"Bitterness"</span>, </span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"acidity"</span> <span class="ot">=</span> <span class="st">"Acidity"</span>, </span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"personal_preference"</span> <span class="ot">=</span> <span class="st">"Personal Preference"</span>)</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop through each attribute </span></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (attr <span class="cf">in</span> attributes) {</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Filter data for the current attribute</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>  data_attr <span class="ot">&lt;-</span> df_long <span class="sc">%&gt;%</span> <span class="fu">filter</span>(attribute <span class="sc">==</span> attr)</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Create frequency polygon plot</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>  polygon_plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(data_attr, <span class="fu">aes</span>(<span class="at">x =</span> value, <span class="at">color =</span> coffee_type, <span class="at">fill =</span> coffee_type)) <span class="sc">+</span></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_freqpoly</span>(<span class="at">binwidth =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="fl">1.2</span>) <span class="sc">+</span> </span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>    <span class="fu">xlim</span>(<span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">5</span>)) <span class="sc">+</span></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_color_manual</span>(<span class="at">values =</span> coffee_colors) <span class="sc">+</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">title =</span> <span class="fu">paste</span>(x_axis_labels[attr]),</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>         <span class="at">x =</span> x_axis_labels[attr], <span class="at">y =</span> <span class="st">"Frequency"</span>) <span class="sc">+</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>    <span class="fu">guides</span>(<span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">title =</span> <span class="st">"Coffee type"</span>)) <span class="sc">+</span>  <span class="co"># Custom legend title</span></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_classic</span>()</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Append the plot to the list</span></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>  plot_list[[attr]] <span class="ot">&lt;-</span> polygon_plot</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a><span class="fu">grid.arrange</span>(</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrangeGrob</span>(plot_list<span class="sc">$</span>bitterness, plot_list<span class="sc">$</span>acidity, </span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>             plot_list<span class="sc">$</span>personal_preference, <span class="at">nrow =</span> <span class="dv">2</span>),  </span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>  <span class="at">top =</span> <span class="fu">textGrob</span>(<span class="st">"Ratings of bitterness, acidity and personal preferences"</span>, <span class="at">gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">20</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>)),</span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>  <span class="at">bottom =</span> <span class="fu">textGrob</span>(<span class="st">"Colors represent difference coffee type"</span>, <span class="at">gp =</span> <span class="fu">gpar</span>(<span class="at">fontsize =</span> <span class="dv">16</span>))</span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -403,7 +404,7 @@ Note
 <div class="no-row-height column-margin column-container"><div class="">
 <p>Since the participant were asked to rate the coffee on a scale of 1-5, the ratings are considered as discrete variable. Therefore, a frequency polygon plot was used instead of a density plot to better represent the data and enhance aesthetics.</p>
 </div></div><p>On a scale of 1 to 5, most participants rated coffee B and C with a score of 3 for bitterness, while coffee A and D were perceived as less bitter. Coffee A and D also exhibited higher acidity levels compared to coffee B and C. Overall, coffee D was the most preferred among participants, followed closely by coffee A, with a comparable number of individuals favoring coffee B and C.</p>
-<p>Interestingly, the distributions of bitterness and acidity scores for coffee A and D are highly similar, as are those for coffee B and C. While the overall preference distributions for coffee B and C are alike, a greater number of participants rated coffee D as tasting better than coffee A.</p>
+<p>Interestingly, the distributions of bitterness and acidity scores for coffee A and D are highly similar, as are those for coffee B and C. While the overall preference distributions for coffee B and C are also alike, a greater number of participants rated coffee D as tasting better than coffee A.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -414,33 +415,36 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Coffee A is a light roasted single-estate coffee, coffee B is a medium roast blend, coffee C is a dark roast blend, and coffee D is a light roasted single-estate coffee with some fermented flavors, as stated by the coffee company. These results may indicate that participants struggled to differentiate between the medium roast (coffee B) and dark roast (coffee C) in terms of bitterness and acidity. Although the bitterness and acidity levels of coffee A and coffee D are also similar, survey participants expressed a greater preference for coffee D.</p>
+<p>According to the coffee company, coffee A is a light roasted single-estate coffee, coffee B is a medium roast blend, coffee C is a dark roast blend, and coffee D is a light roasted single-estate coffee with some fermented flavors. These results may indicate that participants struggled to differentiate between the medium roast (coffee B) and dark roast (coffee C) in terms of bitterness and acidity. Although the bitterness and acidity levels of coffee A and coffee D are also similar, survey participants expressed a greater preference for coffee D.</p>
 </div>
 </div>
-<section id="is-there-an-association-between-age-and-coffee-preference" class="level3">
-<h3 class="anchored" data-anchor-id="is-there-an-association-between-age-and-coffee-preference">Is there an association between age and coffee preference?</h3>
+</section>
+<section id="is-there-an-association-between-age-and-coffee-preference" class="level2">
+<h2 class="anchored" data-anchor-id="is-there-an-association-between-age-and-coffee-preference">Is there an association between age and coffee preference?</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for only 'personal preference' ratings</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>df_preference <span class="ot">&lt;-</span> df_long <span class="sc">%&gt;%</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(attribute <span class="sc">==</span> <span class="st">"personal_preference"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Convert 'age' to a factor with a specific order</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">age =</span> <span class="fu">factor</span>(age, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"&lt;18 years old"</span>, <span class="st">"18-24 years old"</span>, </span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"25-34 years old"</span>, <span class="st">"35-44 years old"</span>, </span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"45-54 years old"</span>, <span class="st">"55-64 years old"</span>, </span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"&gt;65 years old"</span>)))</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a box plot with rotated x-axis labels</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_preference, <span class="fu">aes</span>(<span class="at">x =</span> age, <span class="at">y =</span> value, <span class="at">fill =</span> coffee_type)) <span class="sc">+</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> coffee_type, <span class="at">ncol =</span> <span class="dv">2</span>) <span class="sc">+</span>  <span class="co"># Create a separate box plot for each coffee type</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Coffee Preference by Age Group Across Coffee Types"</span>,</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Examining if age are associated with personal preference for different coffee types"</span>,</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Age"</span>,</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Personal Preference Rating"</span>,</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">fill =</span> <span class="st">"Coffee Type"</span>) <span class="sc">+</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>, </span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create box plots to visualize how rating might change with age </span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data for only 'personal preference' ratings</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>df_preference <span class="ot">&lt;-</span> df_long <span class="sc">%&gt;%</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(attribute <span class="sc">==</span> <span class="st">"personal_preference"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Convert 'age' to a factor with a specific order</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">age =</span> <span class="fu">factor</span>(age, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"&lt;18 years old"</span>, <span class="st">"18-24 years old"</span>, </span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"25-34 years old"</span>, <span class="st">"35-44 years old"</span>, </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"45-54 years old"</span>, <span class="st">"55-64 years old"</span>, </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"&gt;65 years old"</span>)))</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a box plot with rotated x-axis labels</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_preference, <span class="fu">aes</span>(<span class="at">x =</span> age, <span class="at">y =</span> value, <span class="at">fill =</span> coffee_type)) <span class="sc">+</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> coffee_type, <span class="at">ncol =</span> <span class="dv">2</span>) <span class="sc">+</span>  <span class="co"># Create a separate box plot for each coffee type</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Coffee Preference by Age Group Across Coffee Types"</span>,</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Examining if age are associated with personal preference for different coffee types"</span>,</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Age"</span>,</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Personal Preference Rating"</span>,</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>       <span class="at">fill =</span> <span class="st">"Coffee Type"</span>) <span class="sc">+</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>, </span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -450,7 +454,7 @@ Note
 </div>
 </div>
 </div>
-<p>Personal preference ratings for coffee vary slightly across different age groups, with the degree of variation dependent on the type of coffee. For instance, the distribution of preference ratings for coffee A among the age groups 18-24, 45-54, 55-64, and those over 65 is quite similar, with a median rating of 3. In these groups, there is an approximately equal number of individuals who enjoy or dislike the coffee. In contrast, the age groups under 18, as well as 25-34 and 35-44, have a median rating of 4, although the under-18 group exhibits a larger variance in ratings compared to the other two age groups.</p>
+<p>Personal preference ratings for coffee vary slightly across different age groups. For instance, the distribution of preference ratings for coffee A among the age groups 18-24, 45-54, 55-64, and those over 65 is quite similar, with a median rating of 3. In these groups, there is an approximately equal number of individuals who enjoy or dislike the coffee. In contrast, the age groups under 18, as well as 25-34 and 35-44, have a median rating of 4, although the under-18 group exhibits a larger variance in ratings compared to the other two age groups.</p>
 <p>In comparison, the median ratings for coffee B and C are consistent across all age groups. For coffee D, all age groups below 55 report a median rating of 4. However, older participants tend to have a lower preference, with the 45-54 age group giving a median rating of 3, while those in the 55-64 and over 65 age groups assign a median rating of 2.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -472,12 +476,12 @@ Warning
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_preference =</span> <span class="fu">mean</span>(value, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span></span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare the average ratings data in the desired wide format</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert to wide format</span></span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>average_ratings_wide <span class="ot">&lt;-</span> average_ratings <span class="sc">%&gt;%</span></span>
 <span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">avg_preference =</span> <span class="fu">round</span>(avg_preference, <span class="dv">1</span>)) <span class="sc">%&gt;%</span>  <span class="co"># Round to 1 decimal</span></span>
 <span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> age, <span class="at">values_from =</span> avg_preference)</span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the table using knitr::kable() and kableExtra for styling</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the table </span></span>
 <span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>average_ratings_wide <span class="sc">%&gt;%</span></span>
 <span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Age group"</span>, <span class="st">"&lt;18"</span>, <span class="st">"18-24"</span>, <span class="st">"25-34"</span>, <span class="st">"35-44"</span>, </span>
 <span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>                             <span class="st">"45-54"</span>, <span class="st">"55-64"</span>, <span class="st">"&gt;65"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -541,33 +545,34 @@ Warning
 <p>Table 1: Average coffee preference rating by coffee type and age group</p>
 </div>
 </div>
-<p>The results from the average preference ratings are consistent with the median ratings. For all coffee types, the average preference rating is approximately 3 across most age groups, with some exceptions: individuals over 55 tend to rate coffee D lower, while those under 18 tend to rate coffee B lower.</p>
-</section>
+<p>The results from the average preference ratings are consistent with the median ratings. For all coffee types, the average preference rating is approximately 3 across most age groups, with some exceptions: individuals over 55 tend to rate coffee D lower and those under 18 tend to rate coffee B lower, while people aged between 25-34 tend to rate coffee D higher.</p>
 </section>
 <section id="is-there-an-association-between-gender-and-coffee-preference" class="level2">
 <h2 class="anchored" data-anchor-id="is-there-an-association-between-gender-and-coffee-preference">Is there an association between gender and coffee preference?</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare the data by calculating the average ratings and using the correct coffee type order</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df_preference_avg <span class="ot">&lt;-</span> df_long <span class="sc">%&gt;%</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(attribute <span class="sc">==</span> <span class="st">"personal_preference"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(gender, coffee_type) <span class="sc">%&gt;%</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_preference =</span> <span class="fu">mean</span>(value, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Reorder the coffee types</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>df_preference_avg<span class="sc">$</span>coffee_type <span class="ot">&lt;-</span> <span class="fu">factor</span>(df_preference_avg<span class="sc">$</span>coffee_type, </span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>                                        <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Coffee D"</span>, <span class="st">"Coffee C"</span>, </span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>                                                   <span class="st">"Coffee B"</span>, <span class="st">"Coffee A"</span>))</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the heatmap plot</span></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_preference_avg, <span class="fu">aes</span>(<span class="at">x =</span> gender, <span class="at">y =</span> coffee_type, <span class="at">fill =</span> avg_preference)) <span class="sc">+</span></span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_tile</span>() <span class="sc">+</span></span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_distiller</span>(<span class="at">palette =</span> <span class="st">"RdYlBu"</span>, <span class="at">direction =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">4</span>), <span class="at">name =</span> <span class="st">"Avg. Preference Rating"</span>) <span class="sc">+</span>  <span class="co"># Color gradient</span></span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Average Coffee Preference by Gender and Coffee Type"</span>,</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Exploring the relationship between gender and coffee preference across different coffee types"</span>,</span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Gender"</span>, </span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Coffee Type"</span>) <span class="sc">+</span></span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a heatmap to visualize how coffee preference changes with gender</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the average ratings </span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>df_preference_avg <span class="ot">&lt;-</span> df_long <span class="sc">%&gt;%</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(attribute <span class="sc">==</span> <span class="st">"personal_preference"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(gender, coffee_type) <span class="sc">%&gt;%</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_preference =</span> <span class="fu">mean</span>(value, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Reorder the coffee types</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>df_preference_avg<span class="sc">$</span>coffee_type <span class="ot">&lt;-</span> <span class="fu">factor</span>(df_preference_avg<span class="sc">$</span>coffee_type, </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>                                        <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Coffee D"</span>, <span class="st">"Coffee C"</span>, </span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>                                                   <span class="st">"Coffee B"</span>, <span class="st">"Coffee A"</span>))</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the heatmap plot</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_preference_avg, <span class="fu">aes</span>(<span class="at">x =</span> gender, <span class="at">y =</span> coffee_type, <span class="at">fill =</span> avg_preference)) <span class="sc">+</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_tile</span>() <span class="sc">+</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_distiller</span>(<span class="at">palette =</span> <span class="st">"RdYlBu"</span>, <span class="at">direction =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">4</span>), <span class="at">name =</span> <span class="st">"Avg. Preference Rating"</span>) <span class="sc">+</span> </span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Average Coffee Preference by Gender and Coffee Type"</span>,</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Exploring the relationship between gender and coffee preference across different coffee types"</span>,</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Gender"</span>, </span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Coffee Type"</span>) <span class="sc">+</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -577,12 +582,12 @@ Warning
 </div>
 </div>
 </div>
-<p>The average preference ratings differ slightly across gender categories for each type of coffee. Most gender groups exhibit a neutral preference for each coffee type, reflected in an average preference rating of 3, indicated in yellow. However, males tend to assign higher ratings to coffee A, while those who identified as “other” or “prefer not to say” generally rate coffee B and C lower. For coffee D, females tend to provide lower preference ratings, whereas the remaining participants tend to assign higher ratings.</p>
+<p>The average preference ratings differ slightly across gender categories for each type of coffee. Most gender groups exhibit a neutral preference for each coffee type, reflected in an average preference rating of 3, indicated in yellow. However, males tend to assign higher ratings to coffee A, while those who identified as “Other” generally rate coffee B and C lower. For coffee D, females tend to provide lower preference ratings, whereas the remaining gender groups tend to assign higher ratings.</p>
 </section>
 </section>
 <section id="summary" class="level1">
 <h1>Summary</h1>
-<p>This analysis examined the relationships between demographic factors—specifically age and gender—and coffee preferences based on a survey conducted during the “Great American Coffee Taste Test.” The results indicate that there is no strong association between age or gender and coffee preferences, except for coffee D, where younger participants and those identifying as male, as well as those choosing “other” or “prefer not to answer,” tend to assign relatively higher preference ratings, contributing to a higher overall rating for this coffee. The average and median preference ratings for the four coffees across age and gender groups were close to 3, suggesting a neutral preference and an equal distribution of high and low ratings among participants in each demographic group. However, the study population is not representative of the broader U.S. population, which limits the generalizability of the findings. Future research could employ statistical models, such as linear regression, to quantify the associations between various demographic factors and coffee preferences and assess their statistical significance.</p>
+<p>This analysis examined the relationships between demographic factors, specifically age and gender, and coffee preferences based on a survey conducted during the “Great American Coffee Taste Test.” The results indicate that there is no strong association between age or gender and coffee preferences, except for coffee D, where younger participants and those identifying as male, as well as those choosing “other” or “prefer not to answer,” tend to assign relatively higher preference ratings, contributing to a higher overall rating for this coffee. The average and median preference ratings for the four coffees across age and gender groups were close to 3, suggesting a neutral preference and an equal distribution of high and low ratings among participants in each demographic group. However, the study population is not representative of the broader U.S. population, which limits the generalizability of the findings. Future research could employ statistical models, such as linear regression, to quantify the associations between various demographic factors and coffee preferences and assess their statistical significance.</p>
 </section>
 <section id="fuctions" class="level1">
 <h1>Fuctions</h1>
@@ -706,7 +711,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/xiaooowu\.github\.io\/biostat777-intro-xiao-wu\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
